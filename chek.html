@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPLANE </title>
+    <link rel="stylesheet" href="chek.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <h4><b>SHOP</b><span>LANE</span>
+            </h4>
+        </a>
+        <ul class="menu">
+            <!-- <li class="menu-item">
+                <a href="index.html">
+                    Home
+                </a>
+            </li> -->
+            <li class="menu-item">
+                <a href="index.html#clothing">
+                    clothings
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="index.html#accessories">
+                    accessories
+                </a>
+            </li>
+        </ul>
+        <div class="icons">
+            <input type="text" name="" id="search" placeholder="eg. polo t-shirt for men">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <div class="cart">
+                <a href="checkout.html">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span id="cart-count">0</span>
+                </a>
+            </div>
+            <img src="https://avatars.githubusercontent.com/u/100525456?s=400&u=48fdbd1c608dedf15fd845cc99e55b8b9a21a953&v=4" id="user-img">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+    <main id="cart-page">
+        <h1>Checkout</h1>
+        <section id="cart-container">
+            <div id="checkout">
+                <p>Total Items:
+                    <span id="item-count"></span>
+                </p>
+                <div id="cart-item-container" class="cart-items"></div>
+            </div>
+            <div id="place-order">
+                <div class="cart-card">
+                    <h2>Total Amount</h2>
+                    <p>
+                        TotalAmount: Rs
+                        <span id="total-amount"></span>
+                    </p>
+                    <a href="conferm.html">
+                        <button id="place-order-btn">Place Order</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul id="store">
+            <li>
+                <h3>Online Store</h3>
+            </li>
+            <li><a href="index.html#clothing">Men Clothing</a></li>
+            <li><a href="index.html#clothing">Women Clothing</a></li>
+            <li><a href="index.html#accessories">Men Accessories</a></li>
+            <li><a href="index.html#accessories">Women Accessories</a></li>
+        </ul>
+        <ul id="links">
+            <li>
+                <h3>Helpful links</h3>
+            </li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        <ul id="partner">
+            <li>
+                <h3>patners</h3>
+            </li>
+            <li><a href="#">zara</a></li>
+            <li><a href="#">pantaloons</a></li>
+            <li><a href="#">levis</a></li>
+            <li><a href="#">ucb</a></li>
+            <li><a href="#">+ many more</a></li>
+        </ul>
+        <ul id="address">
+            <li>
+                <h3>address</h3>
+            </li>
+            <li>building 101</li>
+            <li>central avenue</li>
+            <li>la - 902722</li>
+            <li>united states</li>
+        </ul>
+    </footer>
+    <img src="https://i.imgur.com/OKAY6Fl.png" id="project-logo" alt="EdYoda Project Logo">
+    <script src="script.js"></script>
+    <script src="chek.js"></script>
+</body>
+
+</html>
